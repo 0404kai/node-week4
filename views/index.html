@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+  rel="stylesheet">
+  <link rel="stylesheet" href="all.css">
+  <title>MetaWall</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">MetaWall</h1>
+      <ul class="user">
+        <li><img src="./images/node-user.png" alt="user" class="userImg"></li>
+        <li class="userName"><a href="#">Member</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="container">
+    <div class="paste">
+      <div class="postBar">
+        <select class="sort" id="sort">
+          <option value="asc">最新貼文</option>
+          <option value="desc">最舊貼文</option>
+        </select>
+        <div class="search">
+          <input type="text" placeholder="搜尋貼文">
+          <button class="material-icons">
+            search
+          </button>
+        </div>
+      </div>
+      <ul class="postContent">
+        <li class="postNone">
+          <div class="circleBar">
+            <div class="circle"></div>
+          </div>
+          <p>目前尚無動態，新增一則貼文吧！</p>
+        </li>
+        <li class="postShow">
+          <div class="userContent">
+            <img src="images/node-user.png" alt="user" class="userIcon">
+            <div class="userTitle">
+              <h3>邊緣小杰</h3>
+              <span class="date">2022/4/3 20:00</span>
+            </div>
+          </div>
+          <p class="userBody">
+            今天要跑步
+          </p>
+          <input type="text" class="">
+        </li>
+      </ul>
+    </div>
+    <div class="userBar">
+      <button class="post">
+        張貼動態
+      </button>
+      <ul>
+        <li>
+          <img src="./images/node-user.png" alt="user" class="userIcon">
+          邊緣小杰
+        </li>
+        <li>
+          <span class="material-icons-outlined userIcon">
+            group
+          </span>
+          追蹤名單
+        </li>
+        <li>
+          <span class="material-icons-outlined userIcon">
+            thumb_up
+          </span>
+          我按讚的文章
+        </li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
