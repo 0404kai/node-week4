@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start:dev": "cross-env NODE_ENV=dev nodemon ./bin/www",
-    "start:prod": "cross-env NODE_ENV=prod node ./bin/www"
+    "start": "cross-env NODE_ENV=prod node ./bin/www"
   },
   "keywords": [],
   "author": "",
