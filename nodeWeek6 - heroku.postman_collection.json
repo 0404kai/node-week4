@@ -65,7 +65,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://nameless-crag-66296.herokuapp.com/api/posts",
+							"raw": "https://nameless-crag-66296.herokuapp.com/api/post",
 							"protocol": "https",
 							"host": [
 								"nameless-crag-66296",
